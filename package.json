@@ -1,7 +1,7 @@
 {
   "name": "browl-npm",
   "version": "0.1.0",
-  "description": "",
+  "description": "Browl npm strategy that allows browl to deploy an instance is managed by npm package.json",
   "author": "Alexey Kucherenko",
   "main": "index.js",
   "license": "MIT",
