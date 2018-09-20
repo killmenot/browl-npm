@@ -1,0 +1,44 @@
+{
+  "name": "browl-npm",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Alexey Kucherenko",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/killmenot/browl-npm#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/killmenot/browl-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/killmenot/browl-npm/issues"
+  },
+  "scripts": {
+    "lint": "eslint lib test index.js",
+    "test": "NODE_ENV=test mocha",
+    "coverage": "nyc --reporter=html --reporter=text npm run test",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "nyc": {
+    "all": true,
+    "include": [
+      "lib/*.js"
+    ]
+  },
+  "dependencies": {
+    "browl-util": "github:killmenot/browl-util",
+    "debug": "^4.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.9.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
+    "pre-commit": "^1.2.2",
+    "sinon": "^6.3.4",
+    "sinon-chai": "^3.2.0"
+  }
+}
