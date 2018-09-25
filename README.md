@@ -1,6 +1,6 @@
 # browl-npm
 
-[![Build Status](https://travis-ci.org/killmenot/browl-npm.svg?branch=master)](https://travis-ci.org/killmenot/browl-npm) [![Coverage Status](https://coveralls.io/repos/github/killmenot/browl-plugin-yaml/badge.svg?branch=master)](https://coveralls.io/github/killmenot/browl-npm?branch=master) [![Dependency Status](https://david-dm.org/killmenot/browl-npm.svg)](hhttps://david-dm.org/killmenot/browl-npm) [![npm version](https://img.shields.io/npm/v/browl-npm.svg)](https://www.npmjs.com/package/browl-npm)
+[![Build Status](https://travis-ci.org/killmenot/browl-npm.svg?branch=master)](https://travis-ci.org/killmenot/browl-npm) [![Coverage Status](https://coveralls.io/repos/github/killmenot/browl-npm/badge.svg?branch=master)](https://coveralls.io/github/killmenot/browl-npm?branch=master) [![Dependency Status](https://david-dm.org/killmenot/browl-npm.svg)](https://david-dm.org/killmenot/browl-npm) [![npm version](https://img.shields.io/npm/v/browl-npm.svg)](https://www.npmjs.com/package/browl-npm)
 
 Browl npm strategy allows browl to deploy an instance that is managed by npm in package.json
 
@@ -15,6 +15,8 @@ npm package.json must have defined the following scripts:
 ## LICENSE
 
     The MIT License (MIT)
+
+    Copyright (c) Alexey Kucherenko
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
